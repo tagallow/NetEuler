@@ -1,6 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Diagnostics;
+using System;
 
 namespace NetEuler
 {
@@ -11,7 +11,7 @@ namespace NetEuler
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
-            MagnetParse.Solve();
+            Mult3And5.Solve();
 
             sw.Stop();
             Console.WriteLine("Time Elapsed: {0:n0} minutes {1:n0} seconds {2:n0} milliseconds", sw.Elapsed.Minutes, sw.Elapsed.Seconds, sw.Elapsed.Milliseconds);
