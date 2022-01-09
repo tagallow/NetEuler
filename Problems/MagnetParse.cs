@@ -1,7 +1,5 @@
-using System.Globalization;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 
 /* 
@@ -15,12 +13,12 @@ namespace NetEuler
         public static void Solve()
         {
             //https://en.wikipedia.org/wiki/Magnet_URI_scheme#Format
-            string magnetURI = "magnet:?xt=urn:btih:ec7a402ff515d80f30f6244847b672ae9fbe5d7a&dn=2021-01-11-raspios-buster-armhf-lite.zip&tr=http%3a%2f%2ftracker.raspberrypi.org%3a6969%2fannounce";
+            // string magnetURI = "magnet:?xt=urn:btih:ec7a402ff515d80f30f6244847b672ae9fbe5d7a&dn=2021-01-11-raspios-buster-armhf-lite.zip&tr=http%3a%2f%2ftracker.raspberrypi.org%3a6969%2fannounce";
 
             string magnetURI2 = "magnet:?xt=urn:btih:ec7a402ff515d80f30f6244847b672ae9fbe5d7a&dn=2021-01-11-raspios-buster-armhf-lite.zip&tr=http%3a%2f%2ftracker.raspberrypi.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.openbittorrent.com%3a6969%2f&tr=udp%3a%2f%2ftracker.cyberia.is%3a6969%2fannounce&tr=udp%3a%2f%2fipv6.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fipv4.tracker.harry.lu%3a80%2fannounce&tr=udp%3a%2f%2fexplodie.org%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.torrent.eu.org%3a451&tr=udp%3a%2f%2fexodus.desync.com%3a6969%2fannounce&tr=udp%3a%2f%2ftracker.internetwarriors.net%3a1337%2fannounce&tr=udp%3a%2f%2f9.rarbg.me%3a2770%2fannounce&tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce";
 
-            string hash = "ec7a402ff515d80f30f6244847b672ae9fbe5d7a";
-            string name = "2021-01-11-raspios-buster-armhf-lite.zip";
+            // string hash = "ec7a402ff515d80f30f6244847b672ae9fbe5d7a";
+            // string name = "2021-01-11-raspios-buster-armhf-lite.zip";
 
             // MagnetURI uri = new MagnetURI()
             // {
