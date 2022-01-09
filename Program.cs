@@ -1,11 +1,15 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Diagnostics;
+using System;
 
 namespace NetEuler
 {
     class Program
     {
+        /// <summary>
+        /// Main
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Stopwatch sw = new Stopwatch();
