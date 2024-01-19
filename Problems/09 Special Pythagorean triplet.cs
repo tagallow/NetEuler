@@ -17,6 +17,7 @@ namespace NetEuler
 {
     static class SpecialPythagoreanTriplet
     {
+        // runs a brute force search for the solution. checks a, b, and c, from 1 to 1000. 
         public static void Solve()
         {
             bool solved = false;
@@ -39,10 +40,12 @@ namespace NetEuler
             }
             Console.WriteLine("Process Complete: {0}", product);
         }
+        // check if c is the largest of the three numbers
         public static bool cIsMax(int a, int b, int c)
         {
             return c > a && c > b;
         }
+        // check if a^2 + b^2 = c^2
         public static bool isTriplit(int a, int b, int c)
         {
             return Math.Pow(a, 2) + Math.Pow(b, 2) == Math.Pow(c, 2);

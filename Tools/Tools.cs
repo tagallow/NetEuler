@@ -1,6 +1,4 @@
-using System.Linq;
 using System;
-using System.IO;
 using System.Collections.Generic;
 namespace NetEuler
 {
@@ -11,6 +9,7 @@ namespace NetEuler
             return SieveEratosthenes2(max);
         }
         // from https://brilliant.org/wiki/sieve-of-eratosthenes/
+        // Sieve of Eratosthenes to calculate primes up to max
         private static List<int> SieveEratosthenes2(int max)
         {
             bool[] sieve = new bool[max];
@@ -46,48 +45,9 @@ namespace NetEuler
             }
             return result;
         }
-
-        #region unused
-        /* private static List<int> SieveEratosthenes(int max)
+        private static bool isEven(int n)
         {
-            bool[] N = new bool[max];
-            for (int i = 0; i < max; i++)
-                N[i] = true;
-            N[0] = N[1] = false;
-
-            for (int i = 2; i < max; i++)
-            {
-                if (N[i])
-                {
-                    for (int j = (2 * i); j < max; j += i)
-                    {
-                        N[j] = false;
-                    }
-                }
-            }
-            List<int> result = new List<int>();
-            for (int i = 0; i < max; i++)
-            {
-                if (N[i])
-                {
-                    result.Add(i);
-                }
-            }
-            return result;
+            return n % 2 == 0;
         }
-        private static int[] GetPrimesFile()
-        {
-            string[] file = File.ReadAllLines(@"Tools\1kprimes.txt")[0].Split(',');
-            int[] primes = Array.ConvertAll(file, int.Parse);
-            return primes;
-        }
-        public static int[] GetPrimes10kFile()
-        {
-            string[] file = File.ReadAllLines(@"Tools\10kprimes.txt")[0].Split(',');
-            int[] primes = Array.ConvertAll(file, int.Parse);
-            return primes;
-        } */
-        #endregion
-
     }
 }

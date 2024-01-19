@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetEuler", "NetEuler.csproj", "{49750116-4B6A-44B5-967F-B3F0D38860B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49750116-4B6A-44B5-967F-B3F0D38860B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49750116-4B6A-44B5-967F-B3F0D38860B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49750116-4B6A-44B5-967F-B3F0D38860B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49750116-4B6A-44B5-967F-B3F0D38860B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88747395-0944-4F5A-B1E5-7E8ADD4C3F2A}
+	EndGlobalSection
+EndGlobal

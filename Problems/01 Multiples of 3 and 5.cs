@@ -9,6 +9,7 @@ namespace NetEuler
 {
     static class Mult3And5
     {
+        // the sum of all the multiples of 3 or 5 below 1000
         public static void Solve()
         {
             int sum = 0;
